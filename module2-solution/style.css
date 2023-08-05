@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.row{
+  width:100%;
+
+}
+/*Base Style*/
+*{
+  box-sizing: border-box;
+}
+
+.base{
+  position: relative;
+
+  
+  height:180px;
+  overflow:hidden;
+  
+  background-color: lightgrey;
+  float:left;
+  border: 2px solid black;
+  margin:10px;
+
+  padding: 30px 5px 10px 8px;
+}
+
+#beef{
+  background-color:red;
+  color:white;
+}
+
+span{
+  position: absolute;
+
+  font-weight:bold;
+  top: 0;
+  right: 0;
+
+  width:100px;
+
+
+  text-align: center;
+  
+  border: 2px solid black;
+
+  margin-bottom:15px;
+
+}
+
+
+
+/*Deskto Version*/
+@media(min-width:992px){
+  .con-lg-4{
+    width: 30%;
+  }
+  #chicken{
+    margin-left:40px;
+  }
+
+}
+
+/*Tablet view*/
+@media(min-width:768px) and (max-width:991px){
+  #chicken{
+    margin-left:60px;
+  }
+  .con-md-6{
+    width:40%;
+  }
+  .con-md-12{
+    width:83%;
+    clear:left;
+    margin-left:58px;
+
+  }
+}
+
+/*mobile version*/
+@media(max-width:767px){
+  .con-sm-12{
+
+    width:80%;
+    margin-left: 60px;;
+  
+}  
+
+
+}
+
+
+
+
